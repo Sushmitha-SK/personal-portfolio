@@ -3,7 +3,7 @@ import about from '../assets/aboutimg.png'
 
 const About = () => {
     const handleDownloadCV = () => {
-        const cvLink = 'http://localhost:3000/';
+        const cvLink = 'https://sushmithas-personal-portfolio.vercel.app/';
         const link = document.createElement('a');
         link.href = cvLink;
         link.download = 'SushmithaS_Resume.pdf';

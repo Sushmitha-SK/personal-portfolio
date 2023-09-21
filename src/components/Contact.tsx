@@ -33,7 +33,7 @@ const Contact = () => {
             <section id="contact" className="contact section section-bg">
                 <div className="section__header container">
                     <span className="section__subtitle">Let's Talk</span>
-                    <h2 className="section__title">Have a Project Idea? Feel Free to Contact</h2>
+                    <h2 className="section__title">Feel Free to Contact</h2>
                 </div>
                 <div className="d-grid contact__wrapper container">
                     <form action='' className="contact__form" onSubmit={handleSubmit}>

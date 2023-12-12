@@ -4,6 +4,7 @@ import newsinsight from '../assets/newsinsight.jpg'
 import taskoptima from '../assets/taskoptima.jpg'
 import designingwise from '../assets/designingwise.jpg'
 import portfolio from '../assets/portfolio.jpg'
+import bugtrace from '../assets/BugTrace.jpg'
 
 const Projects = () => {
     return (
@@ -74,6 +75,22 @@ const Projects = () => {
                             <i className="ri-external-link-line" />
                         </a>
                     </div>
+                      <div className="portfolio__project">
+                        <div className="portfolio__overlay" />
+                        <img src={bugtrace} alt="Bug Trace" className="portfolio__img" />
+                        <div className="portfolio__info">
+                            <div className="portfolio__info-wrapper">
+                                <h3 className="portfolio__title">Bug Trace</h3>
+                                <p className="portfolio__description">
+                                    Bug Trace web app developed using MERN Stack.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/Sushmitha-SK/BugTrace-BugTrackingSystem.git" className="portfolio__link" target="_blank">
+                            <i className="ri-external-link-line" />
+                        </a>
+                    </div>
+                </div>
                     <div className="portfolio__project">
                         <div className="portfolio__overlay" />
                         <img src={designingwise} alt="Designing Wise" className="portfolio__img" />

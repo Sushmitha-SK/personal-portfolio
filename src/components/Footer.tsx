@@ -31,12 +31,12 @@ const Footer = () => {
                         <ul className="social__list">
 
                             <li className="social__item">
-                                <a href="javascript:void(0)" className="social__link">
+                                <a href="http://www.linkedin.com/in/sushmithass" target='__blank' className="social__link">
                                     <i className="ri-linkedin-fill" />
                                 </a>
                             </li>
                             <li className="social__item">
-                                <a href="javascript:void(0)" className="social__link">
+                                <a href="https://github.com/Sushmitha-SK" target='__blank' className="social__link">
                                     <i className="ri-github-fill" />
                                 </a>
                             </li>

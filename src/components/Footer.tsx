@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__copyright container">
-                    <p>© Copyright 2023 | Created by Sushmitha S | All rights reserved.</p>
+                    <p>© Copyright 2024 | Created by Sushmitha S | All rights reserved.</p>
                 </div>
             </footer>
 

@@ -95,7 +95,11 @@ const Qualification = () => {
                                 <p className="service__description">
                                     Robosoft Technologies Pvt. Ltd, Udupi
                                 </p>
-                                <p>Performed System Testing, Integration Testing, Functional Testing.Reporting The Defects Found In The Software By Logging The Defects In Internal Defect Tracker.Performing Investigations On The Defects.</p>
+                                 <ul>
+                                    <li>Performed System Testing, Integration Testing, Functional Testing.</li>
+                                    <li>Reporting The Defects Found In The Software By Logging The Defects In Internal Defect Tracker.</li>
+                                    <li>Performing Investigations On The Defects.</li>
+                                </ul>
                             </div>
                         </div>
                         <div className="service__card">
@@ -108,9 +112,11 @@ const Qualification = () => {
                                 <p className="service__description">
                                     Manipal Digital Systems
                                 </p>
-                                <p>Responsibilities Involved In Requirement Study, Analysis And Design.
-                                    Designed And Developed Software Using Adobe Flex3, Asp.Net C# And SQL Server 2005 As DB.
-                                    Maintenance, Testing And Integration Of Changes To Application Developed.</p>
+                               <ul> 
+                                    <li>Responsibilities Involved In Requirement Study, Analysis And Design.</li>
+                                    <li>Designed And Developed Software Using Adobe Flex3, Asp.Net C# And SQL Server 2005 As DB.</li>
+                                    <li>Maintenance, Testing And Integration Of Changes To Application Developed.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

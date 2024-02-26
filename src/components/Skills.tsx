@@ -9,6 +9,8 @@ import reduxlogo from '../assets/redux.png'
 import mongodblogo from '../assets/mongodb.jpg'
 import phplogo from '../assets/php.png'
 import mysqllogo from '../assets/mysql.png'
+import materialuilogo from '../assets/materialui.png'
+import tailwindlogo from '../assets/tailwind.png'
 
 const Skills = () => {
     return (
@@ -59,6 +61,18 @@ const Skills = () => {
                                     <img src={jslogo} alt="JavaScript Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">JavaScript</h3>
+                            </div>
+                             <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={materialuilogo} alt="JavaScript Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Material UI</h3>
+                            </div>
+                             <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={tailwindlogo} alt="JavaScript Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Tailwind CSS</h3>
                             </div>
                         </div>
                     </div>

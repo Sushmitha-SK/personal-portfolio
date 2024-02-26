@@ -96,7 +96,7 @@ const Qualification = () => {
                                     Robosoft Technologies Pvt. Ltd, Udupi
                                 </p>
                                 <ul style={{
-                                    listStyleType: 'disc', lineHeight: 1.5
+                                    listStyleType: 'disc'
                                 }}>
                                     < li > Performed System Testing, Integration Testing, Functional Testing.</li>
                                     <li>Reporting The Defects Found In The Software By Logging The Defects In Internal Defect Tracker.</li>
@@ -115,7 +115,7 @@ const Qualification = () => {
                                     Manipal Digital Systems
                                 </p>
                                 <ul style={{
-                                    listStyleType: 'disc', lineHeight: 1.5
+                                    listStyleType: 'disc'
                                 }}>
                                     <li>Responsibilities Involved In Requirement Study, Analysis And Design.</li>
                                     <li>Designed And Developed Software Using Adobe Flex3, Asp.Net C# And SQL Server 2005 As DB.</li>

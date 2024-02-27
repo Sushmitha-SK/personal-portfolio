@@ -365,6 +365,9 @@ body {
   margin-bottom: 2rem;
 }
 
+.home__position {
+  font-size: 26px;
+}
 .home__description {
   margin-bottom: 3rem;
   line-height: 1.5;

@@ -9,7 +9,7 @@ const Qualification = () => {
             <section className="counter section" id='education'>
                 <div className="section__header container">
                     <span className="section__subtitle">Resume</span>
-                    <h2 className="section__title">Education and Experience
+                    <h2 className="section__title">Education &amp; Experience
                     </h2>
                 </div>
                 <div className="d-grid service__wrapper container">
@@ -97,11 +97,13 @@ const Qualification = () => {
                                 </p>
                                 <ul style={{
                                     listStyleType: 'disc',
-                                    lineHeight: 1.5
+                                    lineHeight: 1.5,
+
                                 }}>
-                                    < li > Performed System Testing, Integration Testing, Functional Testing.</li>
-                                    <li>Reporting The Defects Found In The Software By Logging The Defects In Internal Defect Tracker.</li>
-                                    <li>Performing Investigations On The Defects.</li>
+                                    <li>Collaborated closely with the software development team to ensure the delivery of bug-free applications.</li>
+                                    <li>Conducted various types of testing, including System Testing, Integration Testing, and Functional Testing. </li>
+                                    <li>Maintained and updated comprehensive test plans, test cases, and test environments throughout the test life cycle. </li>
+                                    <li>Actively participated in the Defect tracking process, reporting defects and working towards their resolution</li>
                                 </ul>
                             </div>
                         </div>
@@ -115,13 +117,14 @@ const Qualification = () => {
                                 <p className="service__description">
                                     Manipal Digital Systems
                                 </p>
-                                <ul style={{
-                                    listStyleType: 'disc',
-                                    lineHeight: 1.5
-                                }}>
-                                    <li>Responsibilities Involved In Requirement Study, Analysis And Design.</li>
-                                    <li>Designed And Developed Software Using Adobe Flex3, Asp.Net C# And SQL Server 2005 As DB.</li>
-                                    <li>Maintenance, Testing And Integration Of Changes To Application Developed.</li>
+                                <ul
+                                    style={{
+                                        listStyleType: 'disc',
+                                        lineHeight: 1.5
+                                    }}>
+                                    <li>Designed and developed user interfaces (UI) using Adobe Flex 3 for the frontend.</li>
+                                    <li>Worked on the backend, implementing web services using Asp.net C# and utilized SQL Server 2005 as the database for data storage.</li>
+                                    <li>Engaged in the maintenance, testing, and integration of changes to the application developed.</li>
                                 </ul>
                             </div>
                         </div>

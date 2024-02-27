@@ -24,13 +24,13 @@ const Qualification = () => {
                                 <SchoolIcon sx={{ width: '30px', height: '30px' }} />
                             </div>
                             <div className="service__info-wrapper">
-                                <h4 style={{ fontSize: '12px', fontWeight: 400, color: '#9da7b1', marginBottom: '10px' }}>2011 - 2015</h4>
+                                <h4 style={{ fontSize: '12px', fontWeight: 400, color: '#9da7b1', marginBottom: '10px' }}>2011 - 2014</h4>
                                 <h3 className="service__info-title">Master Of Computer Applications</h3>
                                 <p className="service__description">
                                     Indira Gandhi National Open Univeristy
                                 </p>
                                 <p className="service__description" style={{ margin: '2px', fontSize: '14px' }}>Percentage: 63.39%</p>
-                                <p className="service__description" style={{ margin: '2px', fontSize: '14px' }}>Year Of Passing: 2015</p>
+                                <p className="service__description" style={{ margin: '2px', fontSize: '14px', lineHeight: '1.5' }}>Year Of Passing: 2015</p>
                             </div>
                         </div>
                         <div className="service__card">
@@ -38,12 +38,13 @@ const Qualification = () => {
                                 <SchoolIcon sx={{ width: '30px', height: '30px' }} />
                             </div>
                             <div className="service__info-wrapper">
+                                <h4 style={{ fontSize: '12px', fontWeight: 400, color: '#9da7b1', marginBottom: '10px' }}>2008 - 2011</h4>
                                 <h3 className="service__info-title">Bachelor Of Computer Applications</h3>
                                 <p className="service__description">
                                     Mangalore University
                                 </p>
                                 <p className="service__description" style={{ margin: '2px', fontSize: '14px' }}>Percentage: 70.60%</p>
-                                <p className="service__description" style={{ margin: '2px', fontSize: '14px' }}>Year Of Passing: 2011</p>
+                                <p className="service__description" style={{ margin: '2px', fontSize: '14px', lineHeight: '1.5' }}>Year Of Passing: 2011</p>
                             </div>
                         </div>
 

@@ -9,7 +9,7 @@ const Home = () => {
                     <div className="home__content">
                         <h1 className="home__title">
                             I Am <span className="home__name">Sushmitha</span><br />
-                            Tester<br />&amp; Developer
+                            <span className='home__position'>Tester &amp; Frontend Developer</span>
                         </h1>
                         <p className="home__description">
                             Exploring the Digital Realm with a Passion for Quality and Innovation

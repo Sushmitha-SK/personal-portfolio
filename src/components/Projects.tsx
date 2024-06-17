@@ -102,7 +102,7 @@ return (
                     <div className="portfolio__info-wrapper">
                         <h3 className="portfolio__title">Foody Nest</h3>
                         <p className="portfolio__description">
-                            Foody Nest, a Food Ordering System web application developed using MERN stack.
+                            Foody Nest, a Food Ordering System web application developed using MERN stack with STRIPE payment.
                         </p>
                     </div>
                 </div>

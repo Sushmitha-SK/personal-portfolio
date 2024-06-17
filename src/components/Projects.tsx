@@ -2,7 +2,7 @@ import React from 'react'
 import flavorblends from '../assets/flavorblends.jpg'
 import newsinsight from '../assets/newsinsight.jpg'
 import taskoptima from '../assets/taskoptima.jpg'
-import designingwise from '../assets/designingwise.jpg'
+import foodynest from '../assets/Foody_Nest.jpg'
 import portfolio from '../assets/portfolio.jpg'
 import bugtrace from '../assets/BugTrace.jpg'
 
@@ -97,16 +97,16 @@ return (
             </div>
             <div className="portfolio__project">
                 <div className="portfolio__overlay" />
-                <img src={designingwise} alt="Designing Wise" className="portfolio__img" />
+                <img src={foodynest} alt="Foody Nest" className="portfolio__img" />
                 <div className="portfolio__info">
                     <div className="portfolio__info-wrapper">
-                        <h3 className="portfolio__title">Designing Wise</h3>
+                        <h3 className="portfolio__title">Foody Nest</h3>
                         <p className="portfolio__description">
-                            Designing Wise, an interior design landing page developed using HTML, CSS and JavaScript
+                            Foody Nest, a Food Ordering System web application developed using MERN stack.
                         </p>
                     </div>
                 </div>
-                <a href="https://github.com/Sushmitha-SK/Designing-Wise.git" className="portfolio__link" target="_blank">
+                <a href="https://github.com/Sushmitha-SK/FoodyNest-FoodOrderingSystem.git" className="portfolio__link" target="_blank">
                     <i className="ri-external-link-line" />
                 </a>
             </div>

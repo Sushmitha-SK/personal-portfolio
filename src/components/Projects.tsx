@@ -54,11 +54,11 @@ return (
                     <div className="portfolio__info-wrapper">
                         <h3 className="portfolio__title">Newsinsight</h3>
                         <p className="portfolio__description">
-                            A news app developed using ReactJS and Redux
+                            A news app developed using ReactJS, Redux for state management and Redux Persist for saving state across sessions.
                         </p>
                     </div>
                 </div>
-                <a href="https://github.com/Sushmitha-SK/Newsinsight-News-App.git" className="portfolio__link"
+                <a href="https://github.com/Sushmitha-SK/NewsInsight-NewsPortal.git" className="portfolio__link"
                     target="_blank">
                     <i className="ri-external-link-line" />
                 </a>

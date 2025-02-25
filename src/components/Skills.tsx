@@ -15,6 +15,8 @@ import bootstraplogo from '../assets/bootstrap.png'
 import nextjslogo from '../assets/nextjs.png'
 import firebaselogo from '../assets/firebase.png'
 import expressjslogo from '../assets/express.png'
+import gitlogo from '../assets/git.png'
+import githublogo from '../assets/github.png'
 
 const Skills = () => {
     return (
@@ -112,7 +114,7 @@ const Skills = () => {
                                 <div className="skills__img-wrapper">
                                     <img src={expressjslogo} alt="ExpressJS Logo" className="skills__img" />
                                 </div>
-                                <h3 className="skills__name">Express.Js</h3>
+                                <h3 className="skills__name">Express.js</h3>
                             </div>
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
@@ -134,10 +136,26 @@ const Skills = () => {
                             </div>
                         </div>                        
                     </div>
+
+                    <div className="skills__content" style={{ marginTop: '20%' }}>
+                        <h3 className="skills__title">Version Control Systems</h3>
+                        <div className="skills__content-wrapper">
+                            <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={githublogo} alt="GitHub Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">GitHub</h3>
+                            </div>
+                            <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={gitlogo} alt="Git Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Git</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-
-
         </>
     )
 }

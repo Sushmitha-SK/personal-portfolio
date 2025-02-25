@@ -134,11 +134,9 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">MySQL</h3>
                             </div>
-                        </div>                        
-                    </div>
+                        </div>   
 
-                    <div className="skills__content" style={{ marginTop: '20%' }}>
-                        <h3 className="skills__title">Version Control Systems</h3>
+                         <h3 className="skills__title">Version Control Systems</h3>
                         <div className="skills__content-wrapper">
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
@@ -152,8 +150,8 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">Git</h3>
                             </div>
-                        </div>
-                    </div>
+                        </div>                     
+                    </div>                 
                 </div>
             </section>
         </>

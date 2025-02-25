@@ -136,7 +136,7 @@ const Skills = () => {
                             </div>
                         </div>   
 
-                         <h3 className="skills__title">Version Control Systems</h3>
+                         <h3 className="skills__title" style={{ marginTop: '20%' }}>Version Control Systems</h3>
                         <div className="skills__content-wrapper">
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">

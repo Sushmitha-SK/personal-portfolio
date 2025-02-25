@@ -11,6 +11,10 @@ import phplogo from '../assets/php.png'
 import mysqllogo from '../assets/mysql.png'
 import materialuilogo from '../assets/materialui.png'
 import tailwindlogo from '../assets/tailwind.png'
+import bootstraplogo from '../assets/bootstrap.png'
+import nextjslogo from '../assets/nextjs.png'
+import firebaselogo from '../assets/firebase.png'
+import expressjslogo from '../assets/express.png'
 
 const Skills = () => {
     return (
@@ -28,7 +32,7 @@ const Skills = () => {
                         <div className="skills__content-wrapper">
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
-                                    <img src={reactlogo} alt=" React  Logo" className="skills__img" />
+                                    <img src={reactlogo} alt=" ReactJS  Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">React</h3>
                             </div>
@@ -43,6 +47,12 @@ const Skills = () => {
                                     <img src={reduxlogo} alt="Redux Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">Redux</h3>
+                            </div>
+                              <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={nextjslogo} alt="NextJS Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Next.js</h3>
                             </div>
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
@@ -62,17 +72,29 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">JavaScript</h3>
                             </div>
+                            <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={firebaselogo } alt="Firebase Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Firebase</h3>
+                            </div>
                              <div className="skills__card">
                                 <div className="skills__img-wrapper">
-                                    <img src={materialuilogo} alt="JavaScript Logo" className="skills__img" />
+                                    <img src={materialuilogo} alt="MaterialUI Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">Material UI</h3>
                             </div>
                              <div className="skills__card">
                                 <div className="skills__img-wrapper">
-                                    <img src={tailwindlogo} alt="JavaScript Logo" className="skills__img" />
+                                    <img src={tailwindlogo} alt="Tailwind Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">Tailwind CSS</h3>
+                            </div>
+                              <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={bootstraplogo} alt="Bootstrap Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Bootstrap</h3>
                             </div>
                         </div>
                     </div>
@@ -86,7 +108,12 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">Node.Js</h3>
                             </div>
-
+                             <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={expressjslogo} alt="ExpressJS Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Express.Js</h3>
+                            </div>
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
                                     <img src={mongodblogo} alt="MongoDB Logo" className="skills__img" />
@@ -105,7 +132,7 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">MySQL</h3>
                             </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </section>

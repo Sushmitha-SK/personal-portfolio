@@ -81,6 +81,22 @@ const Qualification = () => {
                                 </p>
                             </div>
                         </div>
+
+                        <div className="service__card">
+                            <div className="qualify__icon">
+                                <PiCertificate style={{ width: '30px', height: '30px' }} />
+                            </div>
+                            <div className="service__info-wrapper">
+                                <h4 style={{ fontSize: '12px', fontWeight: 400, color: '#9da7b1', marginBottom: '10px' }}>February 2024</h4>
+                                <a href="https://www.udemy.com/certificate/UC-e913d8cf-e37a-49d2-ab9a-d2f55979951b/" target="_blank" rel="noopener noreferrer">
+                                    <h3 className="service__info-title">
+                                        TailwindCSS from A to Z: Master TailwindCSS Quickly</h3>
+                                </a>
+                                <p className="service__description">
+                                    Udemy
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div className="service__content">
                         <div style={{ marginBottom: '5%' }}>

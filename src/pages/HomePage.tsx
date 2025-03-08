@@ -7,8 +7,13 @@ import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Qualification from '../components/Qualification'
+import { getAnalytics, logEvent } from 'firebase/analytics';
+import { app } from '../firebase'
 
 const HomePage = () => {
+    const analytics = getAnalytics(app);
+    logEvent(analytics, 'Home Page Loaded');
+
     const [showScrollTop, setShowScrollTop] = useState(false);
 
     useEffect(() => {

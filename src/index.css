@@ -650,6 +650,10 @@ body {
 
 /* Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  padding-top: 0px;
+}
+
 .portfolio__project {
   position: relative;
   width: 100%;

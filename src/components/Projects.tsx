@@ -7,6 +7,7 @@ import portfolio from '../assets/portfolio.jpg'
 import bugtrace from '../assets/BugTrace.jpg'
 import acquirespace from '../assets/acquirespace.jpg'
 import shopspace from '../assets/shopspace.jpg'
+import orbit from '../assets/orbit.jpg'
 
 const Projects = () => {
     return (
@@ -17,6 +18,22 @@ const Projects = () => {
                     <h2 className="section__title">Featured Projects</h2>
                 </div>
                 <div className="d-grid portfolio__wrapper container">
+                    <div className="portfolio__project">
+                        <div className="portfolio__overlay" />
+                        <img src={orbit} alt="Website Design" className="portfolio__img" />
+                        <div className="portfolio__info">
+                            <div className="portfolio__info-wrapper">
+                                <h3 className="portfolio__title">Orbit</h3>
+                                <p className="portfolio__description">
+                                    Orbit is a powerful task management system designed to streamline team collaboration and boost productivity. Built on the MERN stack, it offers a modern, responsive interface with seamless backend integration for a smooth, scalable user experience.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/Sushmitha-SK/Orbit-TaskManager.git"
+                            className="portfolio__link" target="_blank">
+                            <i className="ri-external-link-line" />
+                        </a>
+                    </div>
                     <div className="portfolio__project">
                         <div className="portfolio__overlay" />
                         <img src={acquirespace} alt="Website Design" className="portfolio__img" />

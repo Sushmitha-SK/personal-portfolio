@@ -8,14 +8,16 @@ const messagingSenderId: string | undefined = process.env.REACT_APP_FIREBASE_MES
 const appId: string | undefined = process.env.REACT_APP_FIREBASE_APP_ID
 const measurementId: string | undefined = process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 
+
+
 const firebaseConfig = {
-    apiKey: apiKey,
-    authDomain: authDomain,
-    projectId: projectId,
-    storageBucket: storageBucket,
-    messagingSenderId: messagingSenderId,
-    appId: appId,
-    measurementId: measurementId
+    apiKey: 'AIzaSyDKzqT_xAKlgHtAI4GTUAIsjdObPlx5VqU',
+    authDomain: 'personalportfolio-308f9.firebaseapp.com',
+    projectId: 'personalportfolio-308f9',
+    storageBucket: 'personalportfolio-308f9.firebasestorage.app',
+    messagingSenderId: '989282599239',
+    appId: '1:989282599239:web:c2323945b56b6c889c4c62',
+    measurementId: 'G-CFXFDB0CK2'
 };
 
 const app = initializeApp(firebaseConfig);

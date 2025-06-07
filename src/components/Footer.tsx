@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Footer = () => {
+
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <footer className="footer">
@@ -44,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__copyright container">
-                    <p>© Copyright 2024 | Created by Sushmitha S | All rights reserved.</p>
+                    <p>© Copyright {currentYear} | Created by Sushmitha S | All rights reserved.</p>
                 </div>
             </footer>
 

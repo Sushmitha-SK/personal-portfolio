@@ -570,11 +570,6 @@ body {
 /* Services
 --------------------------------------------------------------*/
 
-
-.service__content {
-  /* text-align: center; */
-}
-
 .service__description {
   margin-bottom: 2rem;
 }

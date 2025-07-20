@@ -17,6 +17,7 @@ import firebaselogo from '../assets/firebase.png'
 import expressjslogo from '../assets/express.png'
 import gitlogo from '../assets/git.png'
 import githublogo from '../assets/github.png'
+import clerklogo from '../assets/clerk.jpg'
 
 const Skills = () => {
     return (
@@ -50,7 +51,7 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">Redux</h3>
                             </div>
-                              <div className="skills__card">
+                            <div className="skills__card">
                                 <div className="skills__img-wrapper">
                                     <img src={nextjslogo} alt="NextJS Logo" className="skills__img" />
                                 </div>
@@ -76,23 +77,29 @@ const Skills = () => {
                             </div>
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
-                                    <img src={firebaselogo } alt="Firebase Logo" className="skills__img" />
+                                    <img src={firebaselogo} alt="Firebase Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">Firebase</h3>
                             </div>
-                             <div className="skills__card">
+                            <div className="skills__card">
+                                <div className="skills__img-wrapper">
+                                    <img src={clerklogo} alt="Clerk Logo" className="skills__img" />
+                                </div>
+                                <h3 className="skills__name">Clerk</h3>
+                            </div>
+                            <div className="skills__card">
                                 <div className="skills__img-wrapper">
                                     <img src={materialuilogo} alt="MaterialUI Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">Material UI</h3>
                             </div>
-                             <div className="skills__card">
+                            <div className="skills__card">
                                 <div className="skills__img-wrapper">
                                     <img src={tailwindlogo} alt="Tailwind Logo" className="skills__img" />
                                 </div>
                                 <h3 className="skills__name">Tailwind CSS</h3>
                             </div>
-                              <div className="skills__card">
+                            <div className="skills__card">
                                 <div className="skills__img-wrapper">
                                     <img src={bootstraplogo} alt="Bootstrap Logo" className="skills__img" />
                                 </div>
@@ -110,7 +117,7 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">Node.Js</h3>
                             </div>
-                             <div className="skills__card">
+                            <div className="skills__card">
                                 <div className="skills__img-wrapper">
                                     <img src={expressjslogo} alt="ExpressJS Logo" className="skills__img" />
                                 </div>
@@ -134,9 +141,9 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">MySQL</h3>
                             </div>
-                        </div>   
+                        </div>
 
-                         <h3 className="skills__title" style={{ marginTop: '20%' }}>Version Control Systems</h3>
+                        <h3 className="skills__title" style={{ marginTop: '20%' }}>Version Control Systems</h3>
                         <div className="skills__content-wrapper">
                             <div className="skills__card">
                                 <div className="skills__img-wrapper">
@@ -150,8 +157,8 @@ const Skills = () => {
                                 </div>
                                 <h3 className="skills__name">Git</h3>
                             </div>
-                        </div>                     
-                    </div>                 
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

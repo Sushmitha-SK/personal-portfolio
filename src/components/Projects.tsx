@@ -8,6 +8,7 @@ import bugtrace from '../assets/BugTrace.jpg'
 import acquirespace from '../assets/acquirespace.jpg'
 import shopspace from '../assets/shopspace.jpg'
 import orbit from '../assets/orbit.jpg'
+import neolearn from '../assets/NeoLearn.jpg'
 
 const Projects = () => {
     return (
@@ -18,6 +19,22 @@ const Projects = () => {
                     <h2 className="section__title">Featured Projects</h2>
                 </div>
                 <div className="d-grid portfolio__wrapper container">
+                    <div className="portfolio__project">
+                        <div className="portfolio__overlay" />
+                        <img src={neolearn} alt="Website Design" className="portfolio__img" />
+                        <div className="portfolio__info">
+                            <div className="portfolio__info-wrapper">
+                                <h3 className="portfolio__title">NeoLearn</h3>
+                                <p className="portfolio__description">
+                                    NeoLearn is a modern full-stack e-learning platform where educators can create and manage courses, and students can enroll, learn, and track their progress interactively.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/Sushmitha-SK/NeoLearn.git"
+                            className="portfolio__link" target="_blank">
+                            <i className="ri-external-link-line" />
+                        </a>
+                    </div>
                     <div className="portfolio__project">
                         <div className="portfolio__overlay" />
                         <img src={orbit} alt="Website Design" className="portfolio__img" />
